@@ -6,10 +6,9 @@ import About from './components/about';
 import Contact from './components/contact'
 import ReactGA from 'react-ga';
 
-function initizeAnalytics(){
-  ReactGA.initialize('UA-169641322-1')
-  ReactGA.pageview('/')
-}
+ReactGA.initialize('UA-169641322-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 class App extends Component {
   render() {
     return (
