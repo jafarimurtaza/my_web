@@ -19,7 +19,7 @@ export default class Sidebar extends Component {
                   <li><a href="#about" data-nav-section="about">About</a></li>
                   {/*<li><a href="#" data-nav-section="projects">Projects</a></li>
                   <li><a href="#" data-nav-section="blog">Blog</a></li>*/}
-                  <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li>
+                  {/* <li><a href="#timeline" data-nav-section="timeline">Timeline</a></li> */}
                 </ul>
               </div>
             </nav>
@@ -35,7 +35,7 @@ export default class Sidebar extends Component {
             </nav>
             <div className="colorlib-footer">
               <p><small>
-                  Made by <b>@</b> <b>Murtaza</b> <b>Hassani</b> <br></br>
+                  Made by <b>@</b><b>Murtaza</b> <b>Hassani</b> <br></br>
               </small></p>
               <p><small>
                 Something coming soon !!

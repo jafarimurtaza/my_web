@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import Sidebar from './components/sidebar'
-import Introduction from './components/introduction'
-import About from './components/about'
+import Sidebar from './components/sidebar';
+import Introduction from './components/introduction';
+import About from './components/about';
+import Contact from './components/contact'
+import ReactGA from 'react-ga';
 
-
+function initizeAnalytics(){
+  ReactGA.initialize('UA-169641322-1')
+  ReactGA.pageview('/')
+}
 class App extends Component {
   render() {
     return (
@@ -14,7 +19,8 @@ class App extends Component {
 				<div id="colorlib-main">
 					<Introduction></Introduction>
 					<About></About>
-		
+          <Contact></Contact>
+
           	</div>
       	</div>
       </div>
